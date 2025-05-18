@@ -1,0 +1,42 @@
+# Executáveis
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretório bin ou build
+/bin/
+/build/
+/dist/
+
+# Arquivos gerados pelo Go
+*.log
+*.prof
+*.coverprofile
+
+# Diretórios comuns de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Módulos e dependências (se você quiser ignorar o cache do módulo local)
+# (normalmente você **não** ignora `go.sum` e `go.mod`)
+/vendor/
+
+# Cache do Go (geralmente fora do projeto, mas por precaução)
+**/pkg/mod/
+**/pkg/cache/
+
+# Testes gerados
+*.test
+
+# Arquivos temporários
+*.tmp
+*.temp
